@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: white;
+}
+
+body {
+  background: url("https://4kwallpapers.com/images/wallpapers/sunset-evening-sky-clouds-sun-behind-clouds-dramatic-2732x2732-9158.jpg")
+    no-repeat center center fixed;
+  height: 100%;
+  margin: 0;
+  font-weight: 900;
+  background-size: cover;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+input[type="text"] {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  width: 270px;
+  border-radius: 45px;
+  margin-top: 15px;
+}
+.search {
+  width: 100vw;
+  height: 600px;
+  margin-left: 40%;
+}
+.contain .weather-display {
+  height: 450px;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  overflow: hidden;
+}
+.temp-details {
+  height: 150px;
+  width: 650px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  font-size: larger;
+  justify-content: space-around;
+  margin-left: 30%;
+}
+.temp-details div {
+  padding-top: 10px;
+}
